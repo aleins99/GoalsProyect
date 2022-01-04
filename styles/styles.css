@@ -1,0 +1,37 @@
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: #fffce6;
+  line-height: 1.8;
+  counter-reset: myCounter;
+}
+
+.goals {
+  background-color: #a3cdd9;
+  max-width: 400px;
+  margin: 30px auto;
+}
+
+.title {
+  text-align: center;
+  margin: 0;
+  padding: 1rem;
+  color: #fffce6;
+  text-transform: capitalize;
+  border-bottom: 2px solid #506ad4;
+}
+li {
+  padding: 1rem;
+  padding-left: 0;
+  color: #506ad4;
+}
+li label {
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-left: 5px;
+}
+#logros {
+  margin: 1rem;
+  font-size: 20px;
+  text-align: center;
+  color: #506ad4;
+}
